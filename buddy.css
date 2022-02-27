@@ -1,0 +1,12 @@
+#buddies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+  border: 2px solid tomato;
+  background-color: yellow;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
