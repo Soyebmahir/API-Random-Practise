@@ -7,12 +7,13 @@ const searchFood = () => {
     fetch(url)
         .then(res => res.json())
         .then(data => {
+            // console.log(data);
             displaySearchResult(data.meals);
         })
 }
 const displaySearchResult = meals => {
     // console.log(meals)
-    console.log(meals.length);
+    // console.log(meals.length);
 
     const searchResultField = document.getElementById('search-result');
 
@@ -21,7 +22,7 @@ const displaySearchResult = meals => {
 
 
 
-
+    // for (const meal of meals)
     meals.forEach(meal => {
 
 
@@ -58,7 +59,7 @@ const loadMealDetails = (mealID => {
 
 
 const displayMealDetails = meal => {
-    console.log(meal);
+    // console.log(meal);
     const mealDetails = document.getElementById('meal-details');
     mealDetails.textContent = '';
     const div = document.createElement('div');

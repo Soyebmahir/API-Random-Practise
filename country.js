@@ -12,8 +12,8 @@ const displayCountries = countries => {
         const div = document.createElement('div');
         div.classList.add('coutry')
         div.innerHTML = `
-    <h3>Name of Country: ${country}</h3>
-    <p>Capital Name : ${country.capital}</p>
+            <h3>Name of Country: ${country}</h3>
+            <p>Capital Name : ${country.capital}</p>
     
     `
         countriesDiv.appendChild(div);

@@ -6,7 +6,17 @@
 // console.log(data.result[0].userName.name);
 // const info = { name: "", phoneNumber: null };
 // console.log(JSON.stringify(info));
-const array = {
+/* const array = {
     hobbies: ["dancing", "singing", "acting"]
 };
-console.log(JSON.stringify(array));
+console.log(JSON.stringify(array)); */
+/* const colors = {
+    mango: 'green',
+    grapes: 'black',
+    organe: 'yellow'
+};
+console.log(colors[grapes]) */
+const obj = {
+    a: 1
+};
+console.log(Object.keys(obj).length === 1);

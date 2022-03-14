@@ -14,10 +14,10 @@ const displayBuddies = (data) => {
         const div = document.createElement('div');
         div.classList.add('container');
         div.innerHTML = `
-        <h3>Name : ${buddy.name.first} ${buddy.name.last}</h3>
-        <img src="${buddy.picture.large}" />
-        <button > Details</button>
-        `
+                    <h3>Name : ${buddy.name.first} ${buddy.name.last}</h3>
+                    <img src="${buddy.picture.large}" />
+                    <button > Details</button>
+                    `
 
         mainDiv.appendChild(div);
         // console.log(buddy)
